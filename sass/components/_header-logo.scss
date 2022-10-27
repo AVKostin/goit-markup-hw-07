@@ -1,5 +1,3 @@
-/* ----------Header Logo ---------- */
-
 .header-logo {
   margin-right: 93px;
   font-family: Raleway;
@@ -8,6 +6,7 @@
   line-height: 1.19;
   color: var(--accent-color);
   transition: color 300ms linear, background-color 300ms linear;
+
   &:hover,
   &:focus {
     color: #000000;
@@ -17,6 +16,7 @@
 .header-logo-text {
   color: var(--header-text-color);
   transition: color 300ms linear, background-color 300ms linear;
+
   .header-logo:hover &,
   .header-logo:focus & {
     color: var(--accent-color);
